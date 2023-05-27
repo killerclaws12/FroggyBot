@@ -17,7 +17,7 @@ def make_embed(
     title: str = EmptyEmbed,
     description: str = EmptyEmbed,
     url: str = EmptyEmbed,
-    color: Optional[Union[Colour, int]] = None,
+    color: Union[Colour, int] = EmptyEmbed,
     thumbnail_url: str = EmptyEmbed,
     image_url: str = EmptyEmbed,
     author_text: str = EmptyEmbed,
